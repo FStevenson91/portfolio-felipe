@@ -207,8 +207,8 @@ export default function Portfolio() {
       features: [txt.project2F1, txt.project2F2, txt.project2F3, txt.project2F4, txt.project2F5],
       category: "frontend",
       context: txt.project2Context,
-      github: "https://github.com/FStevenson91",
-      demo: "#",
+      github: "https://github.com/FStevenson91/dashboard-analytics",
+      demo: "https://dashboard-analytics-fawn.vercel.app/",
       gradient: "from-violet-500 to-purple-500"
     },
     {
