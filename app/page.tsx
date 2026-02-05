@@ -58,7 +58,7 @@ export default function Portfolio() {
       sendEmail: "Send email",
       remoteWork: "Remote work",
       builtWith: "Built with React + Tailwind.",
-      // Project 1 - Inbound Agent Core
+      // Projects
       project1Title: "Inbound Agent Core",
       project1Subtitle: "AI agent for lead qualification",
       project1Desc: "Conversational agent system that automatically qualifies leads using BANT methodology (Budget, Authority, Need, Timeline). Integrated with WhatsApp via Twilio, persists sessions in the cloud, and operates 24/7 without human intervention.",
@@ -68,7 +68,6 @@ export default function Portfolio() {
       project1F3: "Session persistence in Supabase",
       project1F4: "Deployed on Google Cloud Run 24/7",
       project1F5: "Callback system for CRM queries",
-      // Project 2 - Dashboard Analytics
       project2Title: "Dashboard Analytics",
       project2Subtitle: "Control panel for AI agents",
       project2Desc: "Interactive dashboard to visualize metrics of conversational agents: contacts, active sessions, conversation history, and real-time performance statistics.",
@@ -78,7 +77,6 @@ export default function Portfolio() {
       project2F3: "Real-time metrics and statistics",
       project2F4: "Advanced filters by date and status",
       project2F5: "Responsive and modern design",
-      // Project 3 - AgroTrack
       project3Title: "AgroTrack",
       project3Subtitle: "Agricultural crop monitoring and optimization",
       project3Desc: "Full stack application for agricultural crop tracking with reminder system, personalized recommendations, and application plans. Scalable backend architecture with secure authentication.",
@@ -88,16 +86,6 @@ export default function Portfolio() {
       project3F3: "User validation with nodemailer",
       project3F4: "Secure authentication with Auth0",
       project3F5: "Scalable and modular backend architecture",
-      // Project 4 - AI Agent Node
-      project4Title: "AI Agent Node",
-      project4Subtitle: "REST API for AI conversational agents",
-      project4Desc: "Backend API built with Node.js and TypeScript for AI conversational agents. Professional architecture with Express, Groq/Llama integration, and automated deployment to Azure with CI/CD via GitHub Actions.",
-      project4Context: "Personal Project - Meta Preparation",
-      project4F1: "Professional REST API architecture (controllers, services, routes)",
-      project4F2: "Integration with AI models (Groq/Llama)",
-      project4F3: "Conversational session management system",
-      project4F4: "Automated CI/CD deployment with GitHub Actions",
-      project4F5: "Secure environment variables and secrets configuration",
       // Education
       eduTitle1: "Full Stack Web Developer",
       eduInst1: "Henry Bootcamp",
@@ -157,7 +145,7 @@ export default function Portfolio() {
       sendEmail: "Enviar email",
       remoteWork: "Trabajo remoto",
       builtWith: "Construido con React + Tailwind.",
-      // Project 1 - Inbound Agent Core
+      // Projects
       project1Title: "Inbound Agent Core",
       project1Subtitle: "Agente de IA para calificación de leads",
       project1Desc: "Sistema de agente conversacional que califica leads automáticamente usando metodología BANT (Budget, Authority, Need, Timeline). Integrado con WhatsApp vía Twilio, persiste sesiones en la nube y opera 24/7 sin intervención humana.",
@@ -167,7 +155,6 @@ export default function Portfolio() {
       project1F3: "Persistencia de sesiones en Supabase",
       project1F4: "Desplegado en Google Cloud Run 24/7",
       project1F5: "Sistema de callbacks para consultas a CRM",
-      // Project 2 - Dashboard Analytics
       project2Title: "Dashboard Analytics",
       project2Subtitle: "Panel de control para agentes de IA",
       project2Desc: "Dashboard interactivo para visualizar métricas de agentes conversacionales: contactos, sesiones activas, historial de conversaciones y estadísticas de rendimiento en tiempo real.",
@@ -177,7 +164,6 @@ export default function Portfolio() {
       project2F3: "Métricas y estadísticas en tiempo real",
       project2F4: "Filtros avanzados por fecha y status",
       project2F5: "Diseño responsive y moderno",
-      // Project 3 - AgroTrack
       project3Title: "AgroTrack",
       project3Subtitle: "Monitoreo y optimización de cultivos agrícolas",
       project3Desc: "Aplicación full stack para el seguimiento de cultivos agrícolas con sistema de recordatorios, recomendaciones personalizadas y planes de aplicación. Arquitectura backend escalable con autenticación segura.",
@@ -187,16 +173,6 @@ export default function Portfolio() {
       project3F3: "Validación de usuarios con nodemailer",
       project3F4: "Autenticación segura con Auth0",
       project3F5: "Arquitectura backend escalable y modular",
-      // Project 4 - AI Agent Node
-      project4Title: "AI Agent Node",
-      project4Subtitle: "API REST para agentes conversacionales de IA",
-      project4Desc: "API backend construida con Node.js y TypeScript para agentes conversacionales de IA. Arquitectura profesional con Express, integración con Groq/Llama, y deploy automatizado en Azure con CI/CD via GitHub Actions.",
-      project4Context: "Proyecto Personal - Preparación Meta",
-      project4F1: "Arquitectura REST API profesional (controllers, services, routes)",
-      project4F2: "Integración con modelos de IA (Groq/Llama)",
-      project4F3: "Sistema de gestión de sesiones conversacionales",
-      project4F4: "Deploy automatizado CI/CD con GitHub Actions",
-      project4F5: "Configuración segura de variables de entorno y secrets",
       // Education
       eduTitle1: "Full Stack Web Developer",
       eduInst1: "Henry Bootcamp",
@@ -246,27 +222,14 @@ export default function Portfolio() {
       context: txt.project3Context,
       github: "https://github.com/AgroTrackP/AgroTrack",
       gradient: "from-lime-500 to-green-500"
-    },
-    {
-      id: 4,
-      title: txt.project4Title,
-      subtitle: txt.project4Subtitle,
-      description: txt.project4Desc,
-      tech: ["Node.js", "TypeScript", "Express", "Groq", "Azure App Service", "GitHub Actions", "CI/CD"],
-      features: [txt.project4F1, txt.project4F2, txt.project4F3, txt.project4F4, txt.project4F5],
-      category: "ai",
-      context: txt.project4Context,
-      github: "https://github.com/FStevenson91/ai-agent-node",
-      demo: "https://ai-agent-felipe.azurewebsites.net/health",
-      gradient: "from-blue-500 to-indigo-500"
     }
   ];
 
   const skills = {
     "Backend & APIs": ["Python", "FastAPI", "NestJS", "Node.js", "TypeScript"],
-    "AI & Agents": ["Google ADK", "Vertex AI", "Gemini", "Groq", "Llama"],
+    "AI & Agents": ["Google ADK", "Vertex AI", "Gemini", "Agent Starter Pack"],
     "Databases": ["PostgreSQL", "Supabase", "MongoDB", "TypeORM"],
-    "Cloud & DevOps": ["GCP", "Azure", "Cloud Run", "Docker", "Git", "CI/CD"],
+    "Cloud & DevOps": ["GCP", "Cloud Run", "Docker", "Git"],
     "Frontend": ["React", "Next.js", "Tailwind CSS"]
   };
 
